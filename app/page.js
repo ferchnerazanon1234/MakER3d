@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { createCustomOrder } from '@/actions/orderActions';
+import { createCustomOrder } from '../actions/orderActions';
 
 export default function Home() {
   const [filamentColor, setFilamentColor] = useState('Negro Mate');
